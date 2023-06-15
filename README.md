@@ -9,7 +9,7 @@
 
 运行 beforesim.m 脚本。
 
-运行 promram_flight.slx Simulink模型。
+运行 program_flight.slx Simulink模型。
 
 运行 afterplot.m 脚本进行结果绘图。
 
@@ -23,7 +23,7 @@
 
 运行 beforesim.m 脚本。
 
-运行 promram_flight.slx Simulink模型。
+运行 program_flight.slx Simulink模型。
 
 运行 afterplot.m 脚本进行结果绘图。
 
@@ -33,11 +33,11 @@
 
 在Beforesim.m 的第26行设置发动机作用位置。
 
-在Promram_flight.slx 的Pulsemodify子系统中修改Tm，Tj，Fp参数。 
+在Program_flight.slx 的Pulsemodify子系统中修改Tm，Tj，Fp参数。 
 ![20230615172827](https://github.com/badxinxin/pulse-modified-moudle/assets/131271278/8fc830e5-8a88-4f90-870a-8b30cada427c)
 ![20230615172914](https://github.com/badxinxin/pulse-modified-moudle/assets/131271278/ef416761-5b10-45e5-acb9-8d68d6b34a7a)
 
-在 promram_flight.slx 的Pulsemodify子系统的 computeImpulseForce 函数第6行设置发动机级数。 
+在 program_flight.slx 的Pulsemodify子系统的 computeImpulseForce 函数第6行设置发动机级数。 
 ![20230615172946](https://github.com/badxinxin/pulse-modified-moudle/assets/131271278/e9a1008e-0d18-4ff2-bca6-0851e9518d83)
 
 ## 注意事项：
