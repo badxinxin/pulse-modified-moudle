@@ -1,9 +1,9 @@
 # 智能弹药课程设计作业
-<center><font size= 4>弹箭飞行弹道模型仿真</font></center>
+<p align="center" style="font-size: 24px;">弹箭飞行弹道模型仿真</p>
 
 本项目使用Matlab进行弹箭飞行弹道模型的仿真。所使用的Matlab版本为R2022a，同时需要安装Simulink。
 
-<center><font size= 3>无脉冲作用弹箭飞行弹道模型</font></center>
+<p align="center" style="font-size: 18px;">无脉冲作用弹箭飞行弹道模型</p>
 
 执行以下步骤进行仿真：
 
@@ -17,7 +17,7 @@
 
 在 ProgramDynamics.m 的第69行按照注释赋予初始值。
 
-<center><font size= 3>脉冲作用弹箭飞行弹道模型</font></center>
+<p align="center" style="font-size: 18px;">脉冲作用弹箭飞行弹道模型</p>
 
 执行以下步骤进行仿真：
 
@@ -37,6 +37,6 @@
 
 在 promram_flight.slx 的Pulsemodify子系统的 computeImpulseForce 函数第6行设置发动机级数。 
 ![20230615172946](https://github.com/badxinxin/pulse-modified-moudle/assets/131271278/e9a1008e-0d18-4ff2-bca6-0851e9518d83)
-<font size= 4>注意事项：</font>
+<p style="font-size: 18px;">注意事项：</p>
 
 根据我获取的仿真结果，发动机在1-2000m的上升阶段还是会启动。尽管我的函数逻辑没有问题（判定条件是高度小于2000m且判定点领域积分为负，即下降段），但你也可以尝试使用其他算法。我个人不打算对这部分进行修改。
