@@ -29,6 +29,8 @@
 
 <br>用户自定义配置
 
+在 ProgramDynamics.m 的第69行按照注释赋予初始值。
+
 在Beforesim.m 的第26行设置发动机作用位置。
 
 在Promram_flight.slx 的Pulsemodify子系统中修改Tm，Tj，Fp参数。 
