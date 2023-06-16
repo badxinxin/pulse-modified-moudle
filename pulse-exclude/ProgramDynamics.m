@@ -106,9 +106,9 @@ m = 40;
 
 dv = (-X-m*g*sin(theta))/m;
 dtheta = (Y-m*g*cos(theta))/(m*v);
+dwz = Mz/Jz_ref;
 dx = v*cos(theta);
 dy = v*sin(theta);
-dwz = Mz/Jz_ref;
 dtheta_dot = wz;
 
 sys = [dv dtheta dx dy dwz dtheta_dot];
@@ -135,17 +135,12 @@ sys = [];
 %=============================================================================
 %
 function sys=mdlOutputs(t,x,u)
-
-v = x(1);
 theta = x(2);
-xx = x(3);
-y = x(4);
-wz = x(5);
 theta_dot = x(6); 
 
 alpha = theta_dot - theta;
 
-sys = [x; alpha];
+sys = [x;alpha];
 
 % end mdlOutputs
 
