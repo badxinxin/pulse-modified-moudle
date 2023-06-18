@@ -110,9 +110,9 @@ m = 40;
 
 dv = (-X-m*g*sin(theta)-Fp*sin(alpha))/m;
 dtheta = (Y-m*g*cos(theta)+Fp*cos(alpha))/(m*v);
+dwz = (Mz + Fp*Lp_ref/57.3)/(Jz_ref);
 dx = v*cos(theta);
 dy = v*sin(theta);
-dwz = (Mz + Fp*Lp_ref)/Jz_ref;
 dtheta_dot = wz;
 
 sys = [dv dtheta dx dy dwz dtheta_dot];
