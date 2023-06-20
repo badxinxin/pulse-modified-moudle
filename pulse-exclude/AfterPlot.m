@@ -3,8 +3,8 @@ x_data = x.Data;
 y_data = y.Data;
 v_data = v.Data;
 theta_data = theta.Data*180/pi;
-alpha_data = alpha.Data*180/pi;
-omegaz_data = omegaz.Data*180/pi;
+alpha_data = alpha.Data;
+omegaz_data = omegaz.Data;
 theta_dot_data = theta_dot.data*180/pi;
 time = x.Time;
 
