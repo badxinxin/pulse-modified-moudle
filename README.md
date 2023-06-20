@@ -99,7 +99,7 @@
 
 把每次simulink的模拟结果，6组数据另存到当前目录下，名字自己取，画图的时候需要对应名字才能检索到文件。
 
-![20230620121337](https://github.com/badxinxin/pulse-modified-moudle/assets/131271278/4c8da630-e6de-499b-984f-02a9370b41e4)
+![20230620122453](https://github.com/badxinxin/pulse-modified-moudle/assets/131271278/dd62d514-2173-4280-80c2-309e9d54cbed)
 
 我保存好后的数据为：
 
