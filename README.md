@@ -7,7 +7,7 @@
 
 执行以下步骤进行仿真：
 
-打开根目录\pulse-exclude。
+打开根目录\pulse-include。
 
 运行 beforesim.m 脚本。
 
