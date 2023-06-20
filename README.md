@@ -114,6 +114,6 @@
 ![20230620122208](https://github.com/badxinxin/pulse-modified-moudle/assets/131271278/9f7d85af-a4d8-425d-8a7e-31ed86dd5483)
 ![20230620122233](https://github.com/badxinxin/pulse-modified-moudle/assets/131271278/1ff84b50-a823-48e3-8eb6-4e1d0faf8bad)
 
-为了便于操作，我把减去自由弹道落点的步骤写在代码里了，这样纵轴就直接是修正距离了。改一改x坐标和横纵轴的注释运行作图就ok了。
+为了便于操作，我把减去自由弹道落点的步骤写在代码里了，这样纵轴就直接是修正距离了。改一改自由落点的坐标和x坐标和横纵轴的注释运行作图就ok了。
 
 # 求求用完给我点个星星，这对我很重要！
